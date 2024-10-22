@@ -1,0 +1,23 @@
+#divisioncard .division-card {
+    text-align: center;
+    border: none;
+    transition: transform 0.2s;
+}
+
+#divisioncard .division-card:hover {
+    transform: scale(1.05);
+}
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #343a40;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+.icon-circle i {
+    color: #fff;
+    font-size: 30px;
+}
